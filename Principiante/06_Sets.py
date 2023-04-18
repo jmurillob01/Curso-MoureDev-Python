@@ -10,3 +10,12 @@ print(type(my_other_set))
 
 my_other_set = {"Javi", "Murillo"} # Al tener valores se vuelve set
 print(type(my_other_set))
+
+print(len(my_other_set))
+
+for item in my_other_set:
+    print(item)
+    
+my_other_set.add("Nuevo") # no se respeta el orden (JS)
+print(my_other_set)
+
